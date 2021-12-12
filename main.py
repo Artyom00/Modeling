@@ -43,7 +43,7 @@ class MyUiDialog(QDialog, Ui_Dialog):
 
     def check_data(self, value):
         if value == "":
-            self.textBrowser.append(f"Значения не должны быть пустыми.")
+            self.textBrowser.append("Значения не должны быть пустыми.")
 
         else:
             temp = eval(value)
